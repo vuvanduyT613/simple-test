@@ -257,6 +257,19 @@
           "cssFilePath": "plasmic/copy_of_copy_of_simple_light_landing_page/PlasmicFeatures.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "-3j8ePnq4e",
+          "name": "NewPage",
+          "type": "managed",
+          "projectId": "j4cXxWNaY4H61DNMUdHEeq",
+          "renderModuleFilePath": "plasmic/copy_of_copy_of_simple_light_landing_page/PlasmicNewPage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_copy_of_simple_light_landing_page/PlasmicNewPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -354,6 +367,11 @@
           "id": "13MVvdfEaYJQXC",
           "name": "Done24Pxsvg2Icon",
           "moduleFilePath": "plasmic/copy_of_copy_of_simple_light_landing_page/icons/PlasmicIcon__Done24Pxsvg2.tsx"
+        },
+        {
+          "id": "pm6E6G7gm1",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/copy_of_copy_of_simple_light_landing_page/icons/PlasmicIcon__Vector.tsx"
         }
       ],
       "images": [
@@ -376,6 +394,21 @@
           "id": "uO7NbQmV2QNGe-",
           "name": "hero-image",
           "filePath": "../public/plasmic/copy_of_copy_of_simple_light_landing_page/images/heroImage.png"
+        },
+        {
+          "id": "OI1WztgFq",
+          "name": "smartwaatch 5",
+          "filePath": "../public/plasmic/copy_of_copy_of_simple_light_landing_page/images/smartwaatch5.png"
+        },
+        {
+          "id": "MV8L5kC3AM",
+          "name": "blanco 1",
+          "filePath": "../public/plasmic/copy_of_copy_of_simple_light_landing_page/images/blanco1.png"
+        },
+        {
+          "id": "zyKkhEck2k",
+          "name": "dark 1",
+          "filePath": "../public/plasmic/copy_of_copy_of_simple_light_landing_page/images/dark1.png"
         }
       ],
       "projectApiToken": "1Yy5uPEtaMTSb25rfQ5Ul6Zyk7LTsJw7ZWEiw96XKdDgv9JomB5Wu8ObJDVVKxfYUb7F3o6PvnSCKelujQ"

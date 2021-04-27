@@ -30,32 +30,13 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import Header from "../../Header"; // plasmic-import: c6NmvztGXUIhD/component
-import TopSection from "../../TopSection"; // plasmic-import: LCodS0O3kgLbC/component
-import Section from "../../Section"; // plasmic-import: 7xKegq4mPEUI7/component
-import FeatureCard from "../../FeatureCard"; // plasmic-import: NIlA_zIutfHkW/component
-import Testimonial from "../../Testimonial"; // plasmic-import: Yx1EfAIK7s3zLT/component
-import HomeCta from "../../HomeCta"; // plasmic-import: 922G72DdZewL2/component
-import Footer from "../../Footer"; // plasmic-import: Kdzc5b9xvWlbu/component
-
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: wC9ZhGcVKThOUB/globalVariant
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_copy_of_copy_of_simple_light_landing_page.module.css"; // plasmic-import: j4cXxWNaY4H61DNMUdHEeq/projectcss
 import * as sty from "./PlasmicHome.module.css"; // plasmic-import: Az6psyQSA4D9k/css
 
-import LightningIcon from "./icons/PlasmicIcon__Lightning"; // plasmic-import: 4Zi9ztCMshUkPJ/icon
-import HammerIcon from "./icons/PlasmicIcon__Hammer"; // plasmic-import: nc0154PuIeqb2i/icon
-import PencilIcon from "./icons/PlasmicIcon__Pencil"; // plasmic-import: MYORJfYMMHtj4F/icon
-import SwapIcon from "./icons/PlasmicIcon__Swap"; // plasmic-import: OydhZLYgbEKijs/icon
-import SlotIcon from "./icons/PlasmicIcon__Slot"; // plasmic-import: HGRIcGqt5v9kxm/icon
-import CycleIcon from "./icons/PlasmicIcon__Cycle"; // plasmic-import: 4sngWBbwCx-nPI/icon
-import FacebookLogoIcon from "./icons/PlasmicIcon__FacebookLogo"; // plasmic-import: BEG9tiBb8dJJ8_/icon
-import TinderLogoIcon from "./icons/PlasmicIcon__TinderLogo"; // plasmic-import: ORKHHSGyVyl46J/icon
-import AirbnbLogoIcon from "./icons/PlasmicIcon__AirbnbLogo"; // plasmic-import: 05zuWRFkATYaj3/icon
-import HubspotLogoIcon from "./icons/PlasmicIcon__HubspotLogo"; // plasmic-import: PZYEMvSY-E8gsp/icon
-import AmazonLogoIcon from "./icons/PlasmicIcon__AmazonLogo"; // plasmic-import: eituQtjqd449f4/icon
+import VectorIcon from "./icons/PlasmicIcon__Vector"; // plasmic-import: pm6E6G7gm1/icon
 
 export type PlasmicHome__VariantMembers = {};
 
@@ -69,11 +50,21 @@ export const PlasmicHome__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHome__OverridesType = {
   root?: p.Flex<"div">;
-  header?: p.Flex<typeof Header>;
-  topSection?: p.Flex<typeof TopSection>;
-  testimonial?: p.Flex<typeof Testimonial>;
-  homeCta?: p.Flex<typeof HomeCta>;
-  footer?: p.Flex<typeof Footer>;
+  desktop3?: p.Flex<"div">;
+  image117?: p.Flex<"div">;
+  rectangle1390?: p.Flex<"div">;
+  svg?: p.Flex<"svg">;
+  smartwatch?: p.Flex<"div">;
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitAliquamCongueSedEtLeoDignissimOdioJusto?: p.Flex<"div">;
+  smartwaatch5?: p.Flex<"div">;
+  rectangle1394?: p.Flex<"div">;
+  white?: p.Flex<"div">;
+  blanco1?: p.Flex<"div">;
+  rectangle1395?: p.Flex<"div">;
+  dark1?: p.Flex<"div">;
+  rectangle1396?: p.Flex<"div">;
+  rectangle13952?: p.Flex<"div">;
+  smartwaatch52?: p.Flex<"div">;
 };
 
 export interface DefaultHomeProps {
@@ -87,10 +78,6 @@ function PlasmicHome__RenderFunc(props: {
   forNode?: string;
 }) {
   const { variants, args, overrides, forNode } = props;
-
-  const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
-  });
 
   return (
     <React.Fragment>
@@ -110,314 +97,200 @@ function PlasmicHome__RenderFunc(props: {
             sty.root
           )}
         >
-          <p.Stack
-            as={"div"}
-            hasGap={true}
-            className={classNames(defaultcss.all, sty.box__eAJz)}
+          <div
+            data-plasmic-name={"desktop3"}
+            data-plasmic-override={overrides.desktop3}
+            className={classNames(defaultcss.all, sty.desktop3)}
           >
-            <Header
-              data-plasmic-name={"header"}
-              data-plasmic-override={overrides.header}
-              className={classNames("__wab_instance", sty.header)}
+            <div
+              data-plasmic-name={"image117"}
+              data-plasmic-override={overrides.image117}
+              className={classNames(defaultcss.all, sty.image117)}
             />
 
-            <TopSection
-              data-plasmic-name={"topSection"}
-              data-plasmic-override={overrides.topSection}
-              className={classNames("__wab_instance", sty.topSection)}
+            <div
+              data-plasmic-name={"rectangle1390"}
+              data-plasmic-override={overrides.rectangle1390}
+              className={classNames(defaultcss.all, sty.rectangle1390)}
             />
 
-            <Section
-              className={classNames("__wab_instance", sty.section__jjymX)}
-              subtitle={
-                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat."
-              }
-              title={"Explore the solutions"}
-            />
-
-            <p.Stack
-              as={"div"}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.box__nqxpg)}
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__qBtM
+              )}
             >
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.box__jWCx)}
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__lDhLc
-                  )}
-                >
-                  {"Powerful suite of tools"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__llN0
-                  )}
-                >
-                  {
-                    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa."
-                  }
-                </div>
-
-                <FeatureCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.featureCard___7HpHj
-                  )}
-                  description={
-                    "Taking collaboration to the next level with security and administrative features built for teams"
-                  }
-                  iconBack={
-                    <LightningIcon
-                      className={classNames(defaultcss.all, sty.svg__v6Xjd)}
-                      role={"img"}
-                    />
-                  }
-                  long={"long" as const}
-                  title={"Building the Simple ecosystem"}
-                />
-
-                <FeatureCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.featureCard__inHnn
-                  )}
-                  description={
-                    "Taking collaboration to the next level with security and administrative features built for teams"
-                  }
-                  iconBack={
-                    <HammerIcon
-                      className={classNames(defaultcss.all, sty.svg__k58Z6)}
-                      role={"img"}
-                    />
-                  }
-                  long={"long" as const}
-                  title={"Building the Simple Ecosystem"}
-                />
-
-                <FeatureCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.featureCard__bhiRp
-                  )}
-                  description={
-                    "Taking collaboration to the next level with security and administrative features built for teams"
-                  }
-                  iconBack={
-                    <PencilIcon
-                      className={classNames(defaultcss.all, sty.svg__qS8NT)}
-                      role={"img"}
-                    />
-                  }
-                  long={"long" as const}
-                  title={"Building the Simple Ecosystem"}
-                />
-              </p.Stack>
-
-              <div className={classNames(defaultcss.all, sty.box__hpf0T)}>
-                <img
-                  alt={""}
-                  className={classNames(defaultcss.img, sty.img__cDmr3)}
-                  role={"img"}
-                  src={
-                    "/plasmic/copy_of_copy_of_simple_light_landing_page/images/simpleProject.png"
-                  }
-                />
-
-                <img
-                  alt={""}
-                  className={classNames(defaultcss.img, sty.img__lL7A4)}
-                  role={"img"}
-                  src={
-                    "/plasmic/copy_of_copy_of_simple_light_landing_page/images/task.png"
-                  }
-                />
-              </div>
-            </p.Stack>
-
-            <div className={classNames(defaultcss.all, sty.box__r3Ze9)}>
-              <div className={classNames(defaultcss.all, sty.box___2RFdy)} />
-
-              <Section
-                className={classNames("__wab_instance", sty.section__gtkx4)}
-                subtitle={
-                  "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat."
-                }
-                title={"How Simple works"}
-              />
-
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.box__kgyzm)}
-              >
-                <FeatureCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.featureCard__cBeDa
-                  )}
-                  description={
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                  }
-                  iconFront={
-                    <SwapIcon
-                      className={classNames(defaultcss.all, sty.svg___4X2Hw)}
-                      role={"img"}
-                    />
-                  }
-                  title={"Initial Contact"}
-                />
-
-                <FeatureCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.featureCard___3Uxe8
-                  )}
-                  description={
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                  }
-                  iconFront={
-                    <SlotIcon
-                      className={classNames(defaultcss.all, sty.svg__eFLqw)}
-                      role={"img"}
-                    />
-                  }
-                  title={"Discovery Session"}
-                />
-
-                <FeatureCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.featureCard__ykOo
-                  )}
-                  description={
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                  }
-                  iconFront={
-                    <CycleIcon
-                      className={classNames(defaultcss.all, sty.svg__kywp)}
-                      role={"img"}
-                    />
-                  }
-                  title={"Contracting"}
-                />
-
-                <FeatureCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.featureCard__nl4U
-                  )}
-                  description={
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                  }
-                  iconFront={
-                    <HammerIcon
-                      className={classNames(defaultcss.all, sty.svg__gXuR3)}
-                      role={"img"}
-                    />
-                  }
-                  title={"Fast Prototyping"}
-                />
-
-                <FeatureCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.featureCard__qLlqa
-                  )}
-                  description={
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                  }
-                  iconFront={
-                    <PencilIcon
-                      className={classNames(defaultcss.all, sty.svg__lEWnQ)}
-                      role={"img"}
-                    />
-                  }
-                  title={"Design Phase"}
-                />
-
-                <FeatureCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.featureCard___0Ct3D
-                  )}
-                  description={
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                  }
-                  iconFront={
-                    <LightningIcon
-                      className={classNames(defaultcss.all, sty.svg__lUv2D)}
-                      role={"img"}
-                    />
-                  }
-                  title={"Develop & Launch"}
-                />
-              </p.Stack>
-
-              <div className={classNames(defaultcss.all, sty.box__c2Kvy)} />
+              {"Home"}
             </div>
 
-            <Section
-              className={classNames("__wab_instance", sty.section__bqxiH)}
-            />
-
-            <p.Stack
-              as={"div"}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.box__yQ5Hh)}
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__ubK
+              )}
             >
-              <FacebookLogoIcon
-                className={classNames(defaultcss.all, sty.svg__fftvK)}
-                role={"img"}
-              />
+              {"Smartphone"}
+            </div>
 
-              <TinderLogoIcon
-                className={classNames(defaultcss.all, sty.svg__dwYf4)}
-                role={"img"}
-              />
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__dG02
+              )}
+            >
+              {"Store"}
+            </div>
 
-              <AirbnbLogoIcon
-                className={classNames(defaultcss.all, sty.svg__vyton)}
-                role={"img"}
-              />
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__y50Ji
+              )}
+            >
+              {"Buy Now"}
+            </div>
 
-              <HubspotLogoIcon
-                className={classNames(defaultcss.all, sty.svg__l5LcX)}
-                role={"img"}
-              />
-
-              <AmazonLogoIcon
-                className={classNames(defaultcss.all, sty.svg__erBq)}
-                role={"img"}
-              />
-            </p.Stack>
-
-            <Testimonial
-              data-plasmic-name={"testimonial"}
-              data-plasmic-override={overrides.testimonial}
-              className={classNames("__wab_instance", sty.testimonial)}
+            <VectorIcon
+              data-plasmic-name={"svg"}
+              data-plasmic-override={overrides.svg}
+              className={classNames(defaultcss.all, sty.svg)}
+              role={"img"}
             />
 
-            <HomeCta
-              data-plasmic-name={"homeCta"}
-              data-plasmic-override={overrides.homeCta}
-              className={classNames("__wab_instance", sty.homeCta)}
+            <div
+              data-plasmic-name={"smartwatch"}
+              data-plasmic-override={overrides.smartwatch}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.smartwatch
+              )}
+            >
+              {"Smartwatch "}
+            </div>
+
+            <div
+              data-plasmic-name={
+                "loremIpsumDolorSitAmetConsecteturAdipiscingElitAliquamCongueSedEtLeoDignissimOdioJusto"
+              }
+              data-plasmic-override={
+                overrides.loremIpsumDolorSitAmetConsecteturAdipiscingElitAliquamCongueSedEtLeoDignissimOdioJusto
+              }
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.loremIpsumDolorSitAmetConsecteturAdipiscingElitAliquamCongueSedEtLeoDignissimOdioJusto
+              )}
+            >
+              {
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue sed et leo, dignissim odio justo.\n"
+              }
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__jPzms
+              )}
+            >
+              {"ELEMENT SERIE"}
+            </div>
+
+            <div
+              data-plasmic-name={"smartwaatch5"}
+              data-plasmic-override={overrides.smartwaatch5}
+              className={classNames(defaultcss.all, sty.smartwaatch5)}
             />
 
-            <Footer
-              data-plasmic-name={"footer"}
-              data-plasmic-override={overrides.footer}
-              className={classNames("__wab_instance", sty.footer)}
+            <div
+              data-plasmic-name={"rectangle1394"}
+              data-plasmic-override={overrides.rectangle1394}
+              className={classNames(defaultcss.all, sty.rectangle1394)}
             />
-          </p.Stack>
+
+            <div
+              data-plasmic-name={"white"}
+              data-plasmic-override={overrides.white}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.white
+              )}
+            >
+              {"White "}
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box___4OkRx
+              )}
+            >
+              {"Element"}
+            </div>
+
+            <div
+              data-plasmic-name={"blanco1"}
+              data-plasmic-override={overrides.blanco1}
+              className={classNames(defaultcss.all, sty.blanco1)}
+            />
+
+            <div
+              data-plasmic-name={"rectangle1395"}
+              data-plasmic-override={overrides.rectangle1395}
+              className={classNames(defaultcss.all, sty.rectangle1395)}
+            />
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__eRo2N
+              )}
+            >
+              {"Dark"}
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__kDxZl
+              )}
+            >
+              {"Element"}
+            </div>
+
+            <div
+              data-plasmic-name={"dark1"}
+              data-plasmic-override={overrides.dark1}
+              className={classNames(defaultcss.all, sty.dark1)}
+            />
+
+            <div
+              data-plasmic-name={"rectangle1396"}
+              data-plasmic-override={overrides.rectangle1396}
+              className={classNames(defaultcss.all, sty.rectangle1396)}
+            />
+
+            <div
+              data-plasmic-name={"rectangle13952"}
+              data-plasmic-override={overrides.rectangle13952}
+              className={classNames(defaultcss.all, sty.rectangle13952)}
+            />
+
+            <div
+              data-plasmic-name={"smartwaatch52"}
+              data-plasmic-override={overrides.smartwaatch52}
+              className={classNames(defaultcss.all, sty.smartwaatch52)}
+            />
+          </div>
         </div>
       </div>
     </React.Fragment>
@@ -425,12 +298,57 @@ function PlasmicHome__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "header", "topSection", "testimonial", "homeCta", "footer"],
-  header: ["header"],
-  topSection: ["topSection"],
-  testimonial: ["testimonial"],
-  homeCta: ["homeCta"],
-  footer: ["footer"]
+  root: [
+    "root",
+    "desktop3",
+    "image117",
+    "rectangle1390",
+    "svg",
+    "smartwatch",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitAliquamCongueSedEtLeoDignissimOdioJusto",
+    "smartwaatch5",
+    "rectangle1394",
+    "white",
+    "blanco1",
+    "rectangle1395",
+    "dark1",
+    "rectangle1396",
+    "rectangle13952",
+    "smartwaatch52"
+  ],
+  desktop3: [
+    "desktop3",
+    "image117",
+    "rectangle1390",
+    "svg",
+    "smartwatch",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitAliquamCongueSedEtLeoDignissimOdioJusto",
+    "smartwaatch5",
+    "rectangle1394",
+    "white",
+    "blanco1",
+    "rectangle1395",
+    "dark1",
+    "rectangle1396",
+    "rectangle13952",
+    "smartwaatch52"
+  ],
+  image117: ["image117"],
+  rectangle1390: ["rectangle1390"],
+  svg: ["svg"],
+  smartwatch: ["smartwatch"],
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitAliquamCongueSedEtLeoDignissimOdioJusto: [
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitAliquamCongueSedEtLeoDignissimOdioJusto"
+  ],
+  smartwaatch5: ["smartwaatch5"],
+  rectangle1394: ["rectangle1394"],
+  white: ["white"],
+  blanco1: ["blanco1"],
+  rectangle1395: ["rectangle1395"],
+  dark1: ["dark1"],
+  rectangle1396: ["rectangle1396"],
+  rectangle13952: ["rectangle13952"],
+  smartwaatch52: ["smartwaatch52"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<
@@ -438,11 +356,21 @@ type DescendantsType<
 > = typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  header: typeof Header;
-  topSection: typeof TopSection;
-  testimonial: typeof Testimonial;
-  homeCta: typeof HomeCta;
-  footer: typeof Footer;
+  desktop3: "div";
+  image117: "div";
+  rectangle1390: "div";
+  svg: "svg";
+  smartwatch: "div";
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitAliquamCongueSedEtLeoDignissimOdioJusto: "div";
+  smartwaatch5: "div";
+  rectangle1394: "div";
+  white: "div";
+  blanco1: "div";
+  rectangle1395: "div";
+  dark1: "div";
+  rectangle1396: "div";
+  rectangle13952: "div";
+  smartwaatch52: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -500,11 +428,23 @@ export const PlasmicHome = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    header: makeNodeComponent("header"),
-    topSection: makeNodeComponent("topSection"),
-    testimonial: makeNodeComponent("testimonial"),
-    homeCta: makeNodeComponent("homeCta"),
-    footer: makeNodeComponent("footer"),
+    desktop3: makeNodeComponent("desktop3"),
+    image117: makeNodeComponent("image117"),
+    rectangle1390: makeNodeComponent("rectangle1390"),
+    svg: makeNodeComponent("svg"),
+    smartwatch: makeNodeComponent("smartwatch"),
+    loremIpsumDolorSitAmetConsecteturAdipiscingElitAliquamCongueSedEtLeoDignissimOdioJusto: makeNodeComponent(
+      "loremIpsumDolorSitAmetConsecteturAdipiscingElitAliquamCongueSedEtLeoDignissimOdioJusto"
+    ),
+    smartwaatch5: makeNodeComponent("smartwaatch5"),
+    rectangle1394: makeNodeComponent("rectangle1394"),
+    white: makeNodeComponent("white"),
+    blanco1: makeNodeComponent("blanco1"),
+    rectangle1395: makeNodeComponent("rectangle1395"),
+    dark1: makeNodeComponent("dark1"),
+    rectangle1396: makeNodeComponent("rectangle1396"),
+    rectangle13952: makeNodeComponent("rectangle13952"),
+    smartwaatch52: makeNodeComponent("smartwaatch52"),
 
     // Metadata about props expected for PlasmicHome
     internalVariantProps: PlasmicHome__VariantProps,
