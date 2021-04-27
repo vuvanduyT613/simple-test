@@ -1,0 +1,8 @@
+.root {
+  display: flex;
+  width: 96px;
+  height: 96px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 48px;
+}
