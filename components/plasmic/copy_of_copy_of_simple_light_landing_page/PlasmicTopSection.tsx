@@ -100,7 +100,7 @@ function PlasmicTopSection__RenderFunc(props: {
                 sty.box__eBDir
               )}
             >
-              {"wonderful"}
+              {"vu van duy"}
             </div>
           </div>
 
